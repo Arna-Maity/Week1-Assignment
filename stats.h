@@ -29,7 +29,7 @@
 #ifndef __STATS_H__
 #define __STATS_H__
 
-void print_statistics(unsigned int* arr,unsigned int len);
+void print_statistics(unsigned char* arr,unsigned int len);
 /**
  * @brief This function print out the results of
  *        statistical analysis in a well formatted
@@ -44,7 +44,7 @@ void print_statistics(unsigned int* arr,unsigned int len);
  *         on screen.
  */
 
-void print_array(unsigned int* arr, unsigned int len);
+void print_array(unsigned char* arr, unsigned int len);
 /**
  * @brief This function just prints the input array
  *        in a well formatted manner to the standard
@@ -59,7 +59,7 @@ void print_array(unsigned int* arr, unsigned int len);
  *         on screen.
  */
 
-int find_mean(unsigned int* arr,unsigned int len);
+int find_mean(unsigned char* arr,unsigned int len);
  /**
  * @brief The function finds the mean value of the 
  *        numbers of the input array and returns
@@ -73,7 +73,7 @@ int find_mean(unsigned int* arr,unsigned int len);
  *         of the input array.
  */
 
-int find_median(unsigned int* arr,unsigned int len);
+int find_median(unsigned char* arr,unsigned int len);
  /**
  * @brief The function finds the median value of the 
  *        numbers of the input array and returns
@@ -87,7 +87,7 @@ int find_median(unsigned int* arr,unsigned int len);
  *         of the input array.
  */
 
- int find_maximum(unsigned int* arr,unsigned int len);
+ int find_maximum(unsigned char* arr,unsigned int len);
  /**
  * @brief The function finds the maximum value of the 
  *        numbers of the input array and returns
@@ -101,7 +101,7 @@ int find_median(unsigned int* arr,unsigned int len);
  *         of the input array.
  */
 
- int find_minimum(unsigned int* arr,unsigned int len);
+ int find_minimum(unsigned char* arr,unsigned int len);
  /**
  * @brief The function finds the minimum value of the 
  *        numbers of the input array and returns
@@ -115,7 +115,7 @@ int find_median(unsigned int* arr,unsigned int len);
  *         of the input array.
  */
 
-void sort_array(unsigned int* arr, unsigned int len);
+void sort_array(unsigned char* arr, unsigned int len);
  /**
  * @brief This function sorts the input array
  *        in descending order.
