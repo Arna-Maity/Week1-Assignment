@@ -9,14 +9,13 @@
  *
  *****************************************************************************/
 /**
- * @file <Add File Name> 
- * @brief <Add Brief Description Here >
+ * @file stats.c
+ * @brief This file implements the statistical functions
+ *        and uses them in a simple application to test
+ *        their functionality.
  *
- * <Add Extended Description Here>
- *
- * @author <Add FirsName LastName>
- * @date <Add date >
- *
+ * @author Arna Maity
+ * @date 03/01/2020
  */
 
 
@@ -40,4 +39,37 @@ void main() {
 
 }
 
-/* Add other Implementation File Code Here */
+void print_statistics(unsigned int* arr, unsigned int len)
+{
+
+}
+
+void print_array(unsigned int* arr, unsigned int len)
+{
+  
+}
+
+int find_median(unsigned int* arr, unsigned int len)
+{
+  
+}
+
+int find_mean(unsigned int* arr, unsigned int len)
+{
+  
+}
+
+int find_maximum(unsigned int* arr, unsigned int len)
+{
+  
+}
+
+int find_minimum(unsigned int* arr, unsigned int len)
+{
+  
+}
+
+void sort_array(unsigned int* arr, unsigned int len)
+{
+
+}
